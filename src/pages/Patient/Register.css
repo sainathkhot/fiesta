@@ -1,0 +1,99 @@
+/* General container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adds space between child elements inside the container */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto; /* Centers the container */
+    text-align: center; /* Centers the text inside */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for container */
+  .container:hover {
+    transform: scale(1.05); /* Slightly enlarges the container */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+    background-color: rgba(255, 255, 255, 0.9); /* Lightens background on hover */
+  }
+  
+  /* Heading styling */
+  .container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  /* Paragraph styling */
+  .container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px; /* Space below paragraph */
+  }
+  
+  /* Button styling */
+  .container button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  .container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight enlargement on hover */
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between input fields */
+    width: 100%;
+  }
+  
+  /* Input field styling */
+  form input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input field focus effect */
+  form input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+  }
+  
+  /* Submit button inside form */
+  form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Submit button hover effect */
+  form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,48 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('hosp1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container for centering content */
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd; /* Light border */
+    padding: 40px; /* Adjust padding inside the box */
+    max-width: 500px; /* Maximum width of the box */
+    width: 100%; /* Full width up to max-width */
+    text-align: center; /* Center text inside the box */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Add space between child elements */
+  }
+  
+  /* Hover effect */
+  .container:hover {
+    transform: scale(1.05); /* Slightly enlarge the box */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Increase shadow for a lifting effect */
+    background-color: rgba(255, 255, 255, 0.9); /* Change background color on hover */
+  }
+  
+  /* Additional form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add space between form fields */
+  }
+  
+  h2 {
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
